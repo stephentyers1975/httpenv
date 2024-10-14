@@ -11,7 +11,7 @@ This can be used for various container learnings like how DNS round-robin works,
 It can be easier to use than something large and resource hungary like elasticsearch, while still providing
 a way to check which container you're seeing in browser (or `curl`) by viewing the env vars it returns in HTTP.
 
-Run it from Docker Hub on host port 8888:
+Run it from Docker Hub on host port 8888: ...
 
 `docker run -d -p 8888:8888 bretfisher/httpenv`
 
