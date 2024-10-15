@@ -30,7 +30,7 @@
             id: docker_meta
             uses: docker/metadata-action@v5
             with:
-              images: bretfisher/docker-ci-automation
+              images: stephentyers1975/docker-ci-automation
               flavor: |
                 latest=false
               tags: |
